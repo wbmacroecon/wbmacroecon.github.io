@@ -25,18 +25,38 @@
     width: 100%;
 }
 
-.next-question{
-    display: flex;
-    margin-bottom: 0.5rem;
-    justify-content: right;
-    width: 100%;
-    font-size: 1.2rem;
-}
-
 .correct {
     background-color: #85e0b7;
 }
 
 .incorrect{
     background-color: #da959d;
+}
+
+/* HUD */
+#hud {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hud-main-text {
+    text-align: center;
+}
+
+#progressBar{
+    width: 20rem;
+    height: 4rem;
+    border: 0.3rem solid #6b61b0;
+    margin-top: 1.5rem;
+}
+
+#progressBarFull{
+    height: 3.6rem;
+    background-color: #6b61b0;
+    width: 0%;
 }

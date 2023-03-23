@@ -1,5 +1,8 @@
 const question = document.getElementById("question");
 const choices = Array.from(document.getElementsByClassName('choice-text'));
+const progressText = document.getElementById("progressText");
+const scoreText = document.getElementById("score");
+const progressBarFull = document.getElementById("progressBarFull");
 
 let currentQuestion = {};
 let acceptingAnswers = true;
@@ -52,6 +55,11 @@ getNewQuestion = () => {
         return window.location.assign("/end.html");
     }
     questionCounter++;
+    progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
+    //update the progress bar
+    progressBarFull.style.width = `${(questionCounter/MAX_QUESTIONS) * 100}%`;
+
+
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionIndex];
     question.innerText = currentQuestion.question;
@@ -76,6 +84,9 @@ choices.forEach(choice => {
         const classToApply = 
             selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
         
+        if(classToApply === 'correct') {
+            incrementScore(CORRECT_BONUS);
+        }
         selectedChoice.parentElement.classList.add(classToApply);
         
         setTimeout( () => {
@@ -85,5 +96,10 @@ choices.forEach(choice => {
 
     });
 })
+
+incrementScore = num => {
+    score +=num;
+    scoreText.innerText = score;
+}
 
 startGame();
