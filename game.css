@@ -24,3 +24,19 @@
     padding: 1.5rem;
     width: 100%;
 }
+
+.next-question{
+    display: flex;
+    margin-bottom: 0.5rem;
+    justify-content: right;
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+.correct {
+    background-color: #85e0b7;
+}
+
+.incorrect{
+    background-color: #da959d;
+}
