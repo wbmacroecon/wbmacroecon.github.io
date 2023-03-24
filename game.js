@@ -3,6 +3,8 @@ const choices = Array.from(document.getElementsByClassName('choice-text'));
 const progressText = document.getElementById("progressText");
 const scoreText = document.getElementById("score");
 const progressBarFull = document.getElementById("progressBarFull");
+const loader = document.getElementById("loader");
+const game = document.getElementById("game");
 
 let currentQuestion = {};
 let acceptingAnswers = true;
@@ -13,32 +15,19 @@ let nextQuestion = document.getElementById("nextQuestion");
 
 nextQuestion.disabled = true;
 
-let questions = [
-    {
-        question: "What is the formula for GDPr?",
-        choice1: "no clue",
-        choice2: "y=mx+b",
-        choice3: "C+I+G+Xn",
-        choice4: "idk",
-        answer: 3
-    },
-    {
-        question: "What should you do if you don't know the answer?",
-        choice1: "nothing",
-        choice2: "graph it out",
-        choice3: "give up",
-        choice4: "guess",
-        answer: 2
-    },
-    {
-        question: "What does PPC stand for?",
-        choice1: "Production Possibilites Curve",
-        choice2: "Pizza Proportions Constant",
-        choice3: "People Place Corner",
-        choice4: "Pretty Pasta Creator",
-        answer: 1
-    }
-];
+let questions = [];
+
+fetch("questions.json").then( res => {
+    console.log(res);
+    return res.json();
+}).then(loadedQuestions => {
+    console.log(loadedQuestions);
+    questions = loadedQuestions;
+    startGame();
+})
+.catch(err => {
+    console.error(err);
+});
 
 //CONSTANTS
 const CORRECT_BONUS = 1;
@@ -50,6 +39,8 @@ startGame = () => {
     score = 0;
     availableQuestions = [...questions];
     getNewQuestion();
+    game.classList.remove("hidden");
+    loader.classList.add("hidden");
 }
 
 getNewQuestion = () => {
@@ -112,5 +103,3 @@ incrementScore = num => {
     score +=num;
     scoreText.innerText = score;
 }
-
-startGame();
