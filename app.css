@@ -72,12 +72,42 @@ h4 {
     align-items: center;
 }
 
+.flex-right{
+    justify-content: right;
+    align-items: right;
+}
+
 .text-center {
     text-align: center;
 }
 
 .hidden {
     display: none;
+}
+
+#resource-container {
+    font-size: 1.5rem;
+    padding: 0.5rem 0;
+    width: 75rem;
+    text-align: left;
+    border: 0.2rem solid #45375c;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    background-color: #ffe1ff;
+}
+
+.resource-title{
+    font-size: 3rem;
+    color: #45375c;
+    margin-bottom: 0.3rem;
+    padding: 0.5rem;
+    font-weight: 700;
+}
+
+.resource-text {
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 1.5rem;
 }
 
 /* BUTTONS */
