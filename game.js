@@ -9,6 +9,9 @@ let acceptingAnswers = true;
 let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
+let nextQuestion = document.getElementById("nextQuestion");
+
+nextQuestion.disabled = true;
 
 let questions = [
     {
@@ -40,6 +43,7 @@ let questions = [
 //CONSTANTS
 const CORRECT_BONUS = 1;
 const MAX_QUESTIONS = 3;
+localStorage.setItem("maxQuestions", MAX_QUESTIONS);
 
 startGame = () => {
     questionCounter = 0;
@@ -51,6 +55,7 @@ startGame = () => {
 getNewQuestion = () => {
 
     if(availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS){
+        localStorage.setItem("mostRecentScore", score);
         //go to the end page
         return window.location.assign("/end.html");
     }
@@ -71,6 +76,7 @@ getNewQuestion = () => {
 
     availableQuestions.splice(questionIndex, 1);
     acceptingAnswers = true;
+
 }
 
 choices.forEach(choice => {
@@ -88,11 +94,16 @@ choices.forEach(choice => {
             incrementScore(CORRECT_BONUS);
         }
         selectedChoice.parentElement.classList.add(classToApply);
+        nextQuestion.disabled = false;
+
+        nextQuestion.addEventListener('click', e => {
+            selectedChoice.parentElement.classList.remove(classToApply);
+        })
         
-        setTimeout( () => {
+        /*setTimeout( () => {
             selectedChoice.parentElement.classList.remove(classToApply);
             getNewQuestion();
-        }, 1000);
+        }, 1000);*/
 
     });
 })
