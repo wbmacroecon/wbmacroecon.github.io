@@ -11,7 +11,7 @@ let acceptingAnswers = true;
 let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
-let nextQuestion = document.getElementById("nextQuestion");
+const nextQuestion = document.getElementById("nextQuestion");
 
 nextQuestion.disabled = true;
 
