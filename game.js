@@ -59,7 +59,6 @@ getNewQuestion = () => {
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionIndex];
     question.innerText = currentQuestion.question;
-    nextQuestion.disabled = true;
 
     choices.forEach(choice => {
         const number = choice.dataset['number'];
@@ -90,6 +89,7 @@ choices.forEach(choice => {
 
         nextQuestion.addEventListener('click', e => {
             selectedChoice.parentElement.classList.remove(classToApply);
+            nextQuestion.disabled = true;
         })
         
         /*setTimeout( () => {
