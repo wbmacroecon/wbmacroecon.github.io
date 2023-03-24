@@ -59,6 +59,7 @@ getNewQuestion = () => {
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionIndex];
     question.innerText = currentQuestion.question;
+    nextQuestion.disabled = true;
 
     choices.forEach(choice => {
         const number = choice.dataset['number'];
