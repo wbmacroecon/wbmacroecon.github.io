@@ -5,6 +5,8 @@ const scoreText = document.getElementById("score");
 const progressBarFull = document.getElementById("progressBarFull");
 const loader = document.getElementById("loader");
 const game = document.getElementById("game");
+const seeWhy = document.getElementById("see-why");
+const explanation = document.getElementById("see-why-explanation");
 
 let currentQuestion = {};
 let acceptingAnswers = true;
@@ -14,6 +16,8 @@ let availableQuestions = [];
 const nextQuestion = document.getElementById("nextQuestion");
 
 nextQuestion.disabled = true;
+seeWhy.hidden = true;
+explanation.hidden = true;
 
 let questions = [];
 
@@ -86,10 +90,17 @@ choices.forEach(choice => {
         }
         selectedChoice.parentElement.classList.add(classToApply);
         nextQuestion.disabled = false;
+        seeWhy.hidden = false;
+
+        seeWhy.addEventListener("click", e => {
+            explanation.hidden = false;
+        })
 
         nextQuestion.addEventListener('click', e => {
             selectedChoice.parentElement.classList.remove(classToApply);
             nextQuestion.disabled = true;
+            seeWhy.hidden = true;
+            explanation.hidden = true;
         })
         
         /*setTimeout( () => {

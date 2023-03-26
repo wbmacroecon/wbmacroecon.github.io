@@ -71,6 +71,11 @@
     animation: spin 2s linear infinite;
 }
 
+#see-why{
+    cursor: pointer;
+    color: #6b61b0;
+}
+
 @keyframes spin {
     0% {
         transform: rotate(0deg);
