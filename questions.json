@@ -1,26 +1,32 @@
 [
     {
-        "question": "What is the formula for GDPr?",
-        "choice1": "no clue",
-        "choice2": "y=mx+b",
-        "choice3": "C+I+G+Xn",
-        "choice4": "idk",
-        "answer": 3
+        "question": "Which of the following is NOT a component of aggregate demand (AD)?",
+        "choice1": "Wages",
+        "choice2": "Consumption",
+        "choice3": "Net Exports",
+        "choice4": "Government spending",
+        "choice5": "Investment",
+        "answer": 1,
+        "explanation": "example 1"
     },
     {
-        "question": "What should you do if you don't know the answer?",
-        "choice1": "nothing",
-        "choice2": "graph it out",
-        "choice3": "give up",
-        "choice4": "guess",
-        "answer": 2
+        "question": "Which of the following could cause a left shift of the AD graph?",
+        "choice1": "An increase in consumer confidence",
+        "choice2": "An increase in interest rates",
+        "choice3": "An increase in government spending",
+        "choice4": "An increase in exports",
+        "choice5": "An increase in consumption spending",
+        "answer": 2,
+        "explanation": "example 2"
     },
     {
-        "question": "What does PPC stand for?",
-        "choice1": "Production Possibilites Curve",
-        "choice2": "Pizza Proportions Constant",
-        "choice3": "People Place Corner",
-        "choice4": "Pretty Pasta Creator",
-        "answer": 1
+        "question": "Which of the following best describes the relationship illustrated by the short-run aggregate supply (SRAS) curve?",
+        "choice1": "The positive relationship between the price level and the quantity of output produced",
+        "choice2": "The positive relationship between the price of a single good and the quantity supplied by producers",
+        "choice3": "The fixed amount of all output that will be produced, which does not respond to the price level",
+        "choice4": "The negative relationship between the price level and the quantity of output produced",
+        "choice5": "The positive relationship between the unemployment rate and the amount of output supplied",
+        "answer": 1,
+        "explanation": "example 3"
     }
 ]

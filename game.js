@@ -94,6 +94,7 @@ choices.forEach(choice => {
 
         seeWhy.addEventListener("click", e => {
             explanation.hidden = false;
+            explanation.innerText = currentQuestion.explanation;
         })
 
         nextQuestion.addEventListener('click', e => {
