@@ -7,7 +7,7 @@
         "choice4": "Government spending",
         "choice5": "Investment",
         "answer": 1,
-        "explanation": "example 1"
+        "explanation": "A is correct because the formula for GDPr is C + I + G + Xn, or Consumption + Investment + Government Spending + Net Exports."
     },
     {
         "question": "Which of the following could cause a left shift of the AD graph?",
@@ -28,5 +28,35 @@
         "choice5": "The positive relationship between the unemployment rate and the amount of output supplied",
         "answer": 1,
         "explanation": "example 3"
+    },
+    {
+        "question": "What happens to inflation and the unemployment rate as you move to the right along the short-run aggregate supply (SRAS) curve?",
+        "choice1": "Inflation doesn’t change and unemployment doesn’t change.",
+        "choice2": "Inflation increases and unemployment doesn’t change.",
+        "choice3": "Inflation decreases and the unemployment rate doesn’t change.",
+        "choice4": "Inflation decreases and the unemployment rate increases.",
+        "choice5": "Inflation increases and the unemployment rate decreases.",
+        "answer": 5,
+        "explanation": "There is a tradeoff between inflation and unemployment along the SRAS curve because, as you move to the right along the curve, there is an increase in the price level and an increase in output. More output lowers the unemployment rate."
+    },
+    {
+        "question": "The marginal propensity to consume (MPC) in Hamsterville is 0.75. What will be the size of the change in aggregate demand that will occur as a result of a 1 million dollar increase in the government spending component of AD?",
+        "choice1": "$.75 million",
+        "choice2": "$4 million",
+        "choice3": "$.25 million",
+        "choice4": "$3 million",
+        "choice5": "$1.75 million",
+        "answer": 2,
+        "explanation": "B is correct; Spending multiplier = 1/1-MPC; 1/1-0.75 = 4"
+    },
+    {
+        "question": "The LRAS is to the left of AD/AS curves. Which of the following best describes how the economy will adjust in the long run?",
+        "choice1": "$Long-run aggregate supply will increase and the price level will stay the same.",
+        "choice2": "Aggregate demand will decrease and the price level will increase.",
+        "choice3": "Long-run aggregate supply will decrease and the price level will not change.",
+        "choice4": "Short-run aggregate supply will decrease and the price level will increase.",
+        "choice5": "Aggregate demand will increase and the price level will increase.",
+        "answer": 4,
+        "explanation": "D is correct; there are several reasons why the short-run aggregate supply (SRAS) curve will decrease. First, when output is higher than full-employment output, the unemployment rate is lower than the natural rate of unemployment. This puts upward pressure on nominal wages which decreases SRAS. Also, this kind of output gap increases inflationary expectations, which also decreases SRAS."
     }
 ]
