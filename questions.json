@@ -17,7 +17,7 @@
         "choice4": "An increase in exports",
         "choice5": "An increase in consumption spending",
         "answer": 2,
-        "explanation": "example 2"
+        "explanation": "There is no explanation currently!"
     },
     {
         "question": "Which of the following best describes the relationship illustrated by the short-run aggregate supply (SRAS) curve?",
@@ -27,7 +27,7 @@
         "choice4": "The negative relationship between the price level and the quantity of output produced",
         "choice5": "The positive relationship between the unemployment rate and the amount of output supplied",
         "answer": 1,
-        "explanation": "example 3"
+        "explanation": "There is no explanation currently!"
     },
     {
         "question": "What happens to inflation and the unemployment rate as you move to the right along the short-run aggregate supply (SRAS) curve?",
@@ -51,12 +51,72 @@
     },
     {
         "question": "The LRAS is to the left of AD/AS curves. Which of the following best describes how the economy will adjust in the long run?",
-        "choice1": "$Long-run aggregate supply will increase and the price level will stay the same.",
+        "choice1": "Long-run aggregate supply will increase and the price level will stay the same.",
         "choice2": "Aggregate demand will decrease and the price level will increase.",
         "choice3": "Long-run aggregate supply will decrease and the price level will not change.",
         "choice4": "Short-run aggregate supply will decrease and the price level will increase.",
         "choice5": "Aggregate demand will increase and the price level will increase.",
         "answer": 4,
         "explanation": "D is correct; there are several reasons why the short-run aggregate supply (SRAS) curve will decrease. First, when output is higher than full-employment output, the unemployment rate is lower than the natural rate of unemployment. This puts upward pressure on nominal wages which decreases SRAS. Also, this kind of output gap increases inflationary expectations, which also decreases SRAS."
+    },
+    {
+        "question": "Which of the following best describes aggregate supply?",
+        "choice1": "The amount buyers plan to spend on output",
+        "choice2": "A schedule showing the relationship between inputs and outputs",
+        "choice3": "A schedule showing the trade-off between inflation and unemployment",
+        "choice4": "A schedule indicating the level of real output that will be purchased at each possible price level",
+        "choice5": "A schedule indicating the level of real output that will be produced at each possible price level",
+        "answer": 5,
+        "explanation": "There is no explanation currently!"
+    },
+    {
+        "question": "If Maria Escalera’s disposable income increases from $600 to $650 and her level of personal consumption expenditures increase from $480 to $520, you may conclude that her marginal propensity to",
+        "choice1": "consume is 0.8.",
+        "choice2": "consume is 0.4.",
+        "choice3": "consume is 0.25.",
+        "choice4": "save is 0.8.",
+        "choice5": "save is 0.25",
+        "answer": 1,
+        "explanation": "There is no explanation currently!"
+    },
+    {
+        "question": "In the graph, if full-employment GDP is $800 billion, the minimum increase in autonomous expenditures that would be required to move total income to full employment income is",
+        "choice1": "$200 billion.",
+        "choice2": "$100 billion.",
+        "choice3": "$50 billion.",
+        "choice4": "$25 billion.",
+        "choice5": "Zero because total income is already at full employment.",
+        "answer": 3,
+        "explanation": "There is no explanation currently!"
+    },
+    {
+        "question": "A change in which of the following will cause the aggregate demand curve to shift?",
+        "choice1": "Energy prices",
+        "choice2": "Productivity rates",
+        "choice3": "Consumer wealth",
+        "choice4": "Prices of inputs",
+        "choice5": "Prices of consumer goods",
+        "answer": 3,
+        "explanation": "There is no explanation currently!"
+    },
+    {
+        "question": "Which of the following will most likely result in stagflation?",
+        "choice1": "Increase in aggregate demand",
+        "choice2": "Increase in aggregate supply",
+        "choice3": "Decrease in aggregate demand",
+        "choice4": "Decrease in aggregate supply",
+        "choice5": "Increase in the marginal propensity to save",
+        "answer": 4,
+        "explanation": "The answer is D. When aggregate supply shifts to the left, the price level increases, output falls, and unemployment rises. High prices (inflation) + high unemployment = stagflation. When you add inflation and unemployment together, you get the Misery Index."
+    },
+    {
+        "question": "When there is a federal budget surplus:\nI. the Federal Reserve increased the money supply in a given year.\nII. the Federal Reserve decreased the money supply in a given year.\nIII. the government spent more in a year than it received in taxes.\nIV. the government collected more taxes in a year than it spent.",
+        "choice1": "I",
+        "choice2": "II",
+        "choice3": "III",
+        "choice4": "IV",
+        "choice5": "None of the above.",
+        "answer": 4,
+        "explanation": " The answer is D. When the government collects more in taxes than it spends, the federal budget shows a surplus."
     }
 ]

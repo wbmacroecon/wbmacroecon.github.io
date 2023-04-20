@@ -120,6 +120,13 @@ h4 {
     padding: 0.5rem;
 }
 
+.resource-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 450;
+}
+
 /* BUTTONS */
 .btn {
     font-size: 1.8rem;

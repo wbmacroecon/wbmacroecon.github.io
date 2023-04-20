@@ -35,7 +35,7 @@ fetch("questions.json").then( res => {
 
 //CONSTANTS
 const CORRECT_BONUS = 1;
-const MAX_QUESTIONS = 6;
+const MAX_QUESTIONS = 12;
 localStorage.setItem("maxQuestions", MAX_QUESTIONS);
 
 startGame = () => {
