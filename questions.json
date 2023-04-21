@@ -17,7 +17,7 @@
         "choice4": "An increase in exports",
         "choice5": "An increase in consumption spending",
         "answer": 2,
-        "explanation": "There is no explanation currently!"
+        "explanation": "The answer is B. With an increase of interest rates, the price of investment would increase. Therefore the demand for investment would decrease as a result. "
     },
     {
         "question": "Which of the following best describes the relationship illustrated by the short-run aggregate supply (SRAS) curve?",
@@ -27,7 +27,7 @@
         "choice4": "The negative relationship between the price level and the quantity of output produced",
         "choice5": "The positive relationship between the unemployment rate and the amount of output supplied",
         "answer": 1,
-        "explanation": "There is no explanation currently!"
+        "explanation": "A is correct because the SRAS is an upward sloping curve. This is due to the law of supply ( with an increase of price will follow with an increase of output). "
     },
     {
         "question": "What happens to inflation and the unemployment rate as you move to the right along the short-run aggregate supply (SRAS) curve?",
@@ -37,7 +37,7 @@
         "choice4": "Inflation decreases and the unemployment rate increases.",
         "choice5": "Inflation increases and the unemployment rate decreases.",
         "answer": 5,
-        "explanation": "There is a tradeoff between inflation and unemployment along the SRAS curve because, as you move to the right along the curve, there is an increase in the price level and an increase in output. More output lowers the unemployment rate."
+        "explanation": "The answer is E. There is a tradeoff between inflation and unemployment along the SRAS curve because, as you move to the right along the curve, there is an increase in the price level and an increase in output. More output lowers the unemployment rate."
     },
     {
         "question": "The marginal propensity to consume (MPC) in Hamsterville is 0.75. What will be the size of the change in aggregate demand that will occur as a result of a 1 million dollar increase in the government spending component of AD?",
@@ -77,17 +77,7 @@
         "choice4": "save is 0.8.",
         "choice5": "save is 0.25",
         "answer": 1,
-        "explanation": "There is no explanation currently!"
-    },
-    {
-        "question": "In the graph, if full-employment GDP is $800 billion, the minimum increase in autonomous expenditures that would be required to move total income to full employment income is",
-        "choice1": "$200 billion.",
-        "choice2": "$100 billion.",
-        "choice3": "$50 billion.",
-        "choice4": "$25 billion.",
-        "choice5": "Zero because total income is already at full employment.",
-        "answer": 3,
-        "explanation": "There is no explanation currently!"
+        "explanation": "A is correct because MPC=dc/dy  (MPC= change in consumption/ change in disposable income) (520-480)/(650-600) MPC=0.8"
     },
     {
         "question": "A change in which of the following will cause the aggregate demand curve to shift?",
@@ -97,7 +87,7 @@
         "choice4": "Prices of inputs",
         "choice5": "Prices of consumer goods",
         "answer": 3,
-        "explanation": "There is no explanation currently!"
+        "explanation": "The answer is C. A consumer’s income affects the consumer’s consumption. The less of a consumer's income, the less spending ability they have. "
     },
     {
         "question": "Which of the following will most likely result in stagflation?",
@@ -117,6 +107,36 @@
         "choice4": "IV",
         "choice5": "None of the above.",
         "answer": 4,
-        "explanation": " The answer is D. When the government collects more in taxes than it spends, the federal budget shows a surplus."
+        "explanation": "The answer is D. When the government collects more in taxes than it spends, the federal budget shows a surplus."
+    },
+    {
+        "question": "Gross domestic product (GDP) in Marthland is decreasing, plunging Marthaland into a recession. How will the response of automatic stabilizers to decreasing GDP in Marthaland affect the economy of Marthaland?",
+        "choice1": "The government of Marthaland will respond by implementing expansionary fiscal policy, such as a new infrastructure project.",
+        "choice2": "Tax revenues will decrease without governmental action, which will keep consumption and output from falling further.",
+        "choice3": "Transfer payments will decrease automatically, decreasing spending and output.",
+        "choice4": "The government will respond by passing a one-time tax cut to stimulate the economy.",
+        "choice5": "The government will implement contractionary fiscal policy, such as decreasing government spending.",
+        "answer": 2,
+        "explanation": "The answer is B. When national income decreases, so do the taxes collected from that income. A reduction in taxes leaves more income available for consumption, preventing consumption from falling further during a recession."
+    },
+    {
+        "question": "Which of the following statements makes a correct distinction between the short run and the long run?",
+        "choice1": "Short run: wages are fixed; long run: wages are fully flexible",
+        "choice2": "Short run: wages are fully flexible; long run: wages are fixed",
+        "choice3": "Short run: unemployment will increase in response to inflation; long run: unemployment is not affected by inflation",
+        "choice4": "Short run: aggregate supply slopes downwards; long run: aggregate supply slopes upwards",
+        "choice5": "Short run: less than six months has passed; long run: more than six months has passed",
+        "answer": 1,
+        "explanation": "The answer is A. The term 'short run' means that not enough time has passed for input prices to adjust. The term 'long run' means that enough time has passed to allow all input prices to adjust fully."
+    },
+    {
+        "question": "What will happen to the size of the expenditure multiplier and the size of the tax multiplier when the marginal propensity to save (MPS) increases?",
+        "choice1": "Both decrease",
+        "choice2": "Both increase",
+        "choice3": "The size of the tax multiplier increases, the size of the spending multiplier decreases",
+        "choice4": "The size of the tax multiplier doesn't change, the size of the spending multiplier increases",
+        "choice5": "The size of the tax multiplier increases, the size of the spending multiplier doesn't change",
+        "answer": 1,
+        "explanation": "The answer is A. The MPS appears in the denominator of both the tax multiplier and the expenditures multiplier, so an increase in the MPS will make both of these measures smaller. This is a phenomenon that is sometimes called the 'paradox of thrift.'"
     }
 ]
